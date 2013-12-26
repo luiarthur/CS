@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -f mh.exe 
+rm -f draws.txt

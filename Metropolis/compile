@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#To Compile:
+gmcs mh.cs
+
+# To Execute:
+# ./mh.exe
