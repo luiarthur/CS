@@ -46,7 +46,8 @@ public class mh {
 
     // Print Data to Text File
     string path = "draws.txt";
-    System.IO.File.Delete(path); //Deletes draws.txt if it exists. Does nothing otherwise.
+    System.IO.File.Delete(path); //Deletes draws.txt if it exists. 
+                                 //Does nothing otherwise.
     using (System.IO.StreamWriter file = new System.IO.StreamWriter(@path, true)){
       foreach (double draw in draws){
         file.WriteLine(draw);
